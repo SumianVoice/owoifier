@@ -16,6 +16,7 @@ class owoifier {
     output = output.replace(/(\!\!\! )/gi, "!! ") //
     output = output.replace(/(\? )/gi, "!? ")
     output = output.replace(/(\!\!\? )/gi, "!? ") //
+    output = output.replace(/(\')/gi, "")
     // WORDS
     output = output.replace(/( you )/gi, " u ")
     output = output.replace(/( and )/gi, " en ")
@@ -23,6 +24,7 @@ class owoifier {
     output = output.replace(/( was )/gi, " wos ")
     output = output.replace(/( had )/gi, " habbed ")
     output = output.replace(/( yes )/gi, " ye ")
+    output = output.replace(/(know)/gi, "no")
     output = output.replace(/(thought)/gi, "fowt")
     output = output.replace(/(though)/gi, "doe")
     output = output.replace(/(oh)/gi, "owo")
@@ -66,7 +68,7 @@ class owoifier {
     // output = output.replace(/(owowo )/gi, "owo ") //
     output = output.replace(/(r)/gi, "w")
     output = output.replace(/(l)/gi, "w")
-    output = output.replace(/(\')/gi, "")
+    output = output.replace(/(kn)/gi, "n")
     //
     // output = output.replace(/(WORD)/gi, "")
     // output = output.replace(/(WORD)/gi, "")
