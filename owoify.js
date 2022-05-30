@@ -18,7 +18,7 @@ class owoifier {
     output = output.replace(/(\!\!\? )/gi, "!? ") //
     output = output.replace(/(\')/gi, "")
     // WORDS
-    output = output.replace(/( you )/gi, " u ")
+    output = output.replace(/(you)/gi, "u")
     output = output.replace(/( and )/gi, " en ")
     output = output.replace(/( be )/gi, " b ")
     output = output.replace(/( was )/gi, " wos ")
