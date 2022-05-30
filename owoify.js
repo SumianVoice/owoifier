@@ -25,6 +25,7 @@ class owoifier {
     output = output.replace(/( yes )/gi, " ye ")
     output = output.replace(/(thought)/gi, "fowt")
     output = output.replace(/(though)/gi, "doe")
+    output = output.replace(/(oh)/gi, "owo")
     // compounds
     output = output.replace(/(some)/gi, "sum")
     output = output.replace(/(haha)/gi, "hihi")
@@ -36,6 +37,7 @@ class owoifier {
     output = output.replace(/(sur)/gi, "shor")
     output = output.replace(/(the)/gi, "da")
     output = output.replace(/(tha)/gi, "da")
+    output = output.replace(/(thi)/gi, "di")
     output = output.replace(/(od)/gi, "awd")
     output = output.replace(/(ed )/gi, "d ")
     // output = output.replace(/(ow)/gi, "owo")
