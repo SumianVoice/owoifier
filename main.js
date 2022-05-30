@@ -9,3 +9,6 @@ var inputBox = document.getElementById("input");
     inputBox.value = owo.owoify(inputBox.value);
   }
 }
+function fiwtewText() {
+  filterText();
+}
