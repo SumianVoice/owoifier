@@ -2,7 +2,7 @@
 
 
 
-function filterText(text) {
+function filterText() {
 var owo = new owoifier();
 var inputBox = document.getElementById("input");
   if (inputBox.value !== "") {
